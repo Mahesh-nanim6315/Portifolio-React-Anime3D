@@ -1,0 +1,87 @@
+.experience-container {
+    padding: 20px;
+    text-align: left;
+}
+
+.experience-content {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.slick-next,
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+    border: 1.5px solid #6751b9;
+    
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.arrow {
+    width: 12px;
+    height: 12px;
+    border: solid #333;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.slick-prev .arrow {
+    transform: rotate(135deg);
+}
+
+.slick-next .arrow {
+    transform: rotate(-45deg);
+}
+
+/* Slider Cards Styling */
+.experience-content .slick-slide {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-container h5 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+@media (max-width:1025px){
+    .slick-prev {
+        left:0rem;
+    }
+    .slick-next {
+        right: 0rem;
+    }
+}
+
+@media(max-width:768px) {
+    .experience-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+    .slick-prev {
+        left: -1rem;
+    }
+    .slick-next {
+        right: 1rem;
+    }
+}

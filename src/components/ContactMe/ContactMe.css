@@ -1,0 +1,36 @@
+.contact-container {
+    margin: 4rem 1rem; /* Added side margin for better spacing on mobile */
+    position: relative;
+}
+
+.contact-container h5 {
+    font-size: 2rem; /* Slightly increased font size for better readability */
+    font-weight: 600;
+    margin-bottom: 2rem; /* Adjusted margin for consistent spacing */
+    text-align: center; /* Center aligned the heading */
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: center; /* Centered content horizontally */
+}
+
+.contact-info, .contact-form {
+    flex: 1; /* Equal width for info and form sections */
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column-reverse; /* Ensures the form is displayed first */
+        align-items: center; /* Center aligns child elements */
+        gap: 2rem; /* Reduced gap for compact view */
+    }
+
+    .contact-container h5 {
+        font-size: 1.5rem; /* Adjusted font size for smaller screens */
+        margin-bottom: 1rem;
+    }
+}
+
