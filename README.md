@@ -1,8 +1,20 @@
-# React + Vite
+# React Portfolio with 3D Animations
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built using **React.js**, featuring stunning **3D animations** and a clean design to showcase projects, skills, and experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Ensures seamless viewing on desktops, tablets, and mobile devices.
+- **3D Animations**: Integrates immersive animations to enhance user experience.
+- **Interactive UI**: Smooth transitions and hover effects for an engaging user interface.
+- **Customizable Content**: Easily update projects, skills, and other sections.
+- **Modern Tech Stack**: Built with cutting-edge web technologies.
+
+## Technologies Used
+
+- **React.js**: Core framework for building the user interface.
+- **HTML**: For structuring content.
+- **CSS**: For styling, including animations and responsiveness.
+- **JavaScript (ES6+)**: For interactive elements and logic.
+- **Vite**: For fast development and builds.
+
